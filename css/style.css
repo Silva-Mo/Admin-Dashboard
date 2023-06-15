@@ -475,7 +475,6 @@ a{
         grid-template-columns: 1fr;
         width: 50px;
         justify-self: center;
-        /* height: 100px; */
     }
 
     .logo > img {
@@ -494,6 +493,7 @@ a{
     .content{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 0.5fr;
+        padding-right: 2px;
     }
 
     .news{
@@ -511,11 +511,16 @@ a{
 
     .info {
         grid-template-columns: auto;
-        justify-content: start;
+        justify-content: center;
     }
 
     .grid-container{
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .user-info > .options {
+        width: 80%;
+        justify-self: center;
     }
 }
 
@@ -523,7 +528,7 @@ a{
     .content{
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 0.5fr 0.5fr;
-        padding-left: 2px;
+        
     }
 
     .assassins{
@@ -543,9 +548,7 @@ a{
         min-width: 50px;
     }
 
-    .options{
-        gap: 20px;
-    }
+    
 }
 
 @media only screen and (min-width: 1300px){
@@ -558,7 +561,15 @@ a{
     }
 }
 
+@media only screen and (max-height: 630px){
+    .sidebar{
+        min-height: 570px;
+    }
+}
 
+.scale:active{
+    transform: scale(1.1);
+}
 
 
 
