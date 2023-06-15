@@ -524,7 +524,7 @@ a{
     }
 }
 
-@media only screen and (max-width:650px){
+@media only screen and (max-width: 650px){
     .content{
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 0.5fr 0.5fr;
@@ -563,8 +563,10 @@ a{
 
 @media only screen and (max-height: 630px){
     .sidebar{
-        min-height: 590px;
+        position: static;
+        grid-template-rows: 100px 50%;
     }
+
 }
 
 .scale:active{
