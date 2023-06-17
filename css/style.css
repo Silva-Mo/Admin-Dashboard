@@ -564,7 +564,7 @@ a{
 @media only screen and (max-height: 630px){
     .sidebar{
         position: static;
-        grid-template-rows: 100px 50%;
+        grid-template-rows: 100px 40%;
     }
 
 }
@@ -572,6 +572,15 @@ a{
 .scale:active{
     transform: scale(1.1);
 }
+
+.github{
+    transition: 0.5s;
+}
+
+.github:hover {
+    transform: rotate(360deg) scale(0.7);
+}
+
 
 
 
