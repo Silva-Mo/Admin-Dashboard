@@ -317,6 +317,9 @@ button:active{
     margin-top: 4%;
 }
 
+.card p {
+    margin-bottom: 0;
+}
 
 .below{
     min-height: 50%;
