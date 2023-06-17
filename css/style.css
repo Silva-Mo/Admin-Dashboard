@@ -426,6 +426,9 @@ a{
     color: white;
 }
 
+.text {
+    padding-right: 3px;
+}
 @media only screen and (max-width:1000px){
     .user-info{
         grid-template-columns: 1fr;
